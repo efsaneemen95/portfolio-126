@@ -1,0 +1,47 @@
+@import url('./_reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Poppins:ital,wght@1,100&family=Raleway:ital,wght@1,200&family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+justify-content: space-between;
+    padding-top: 41px;
+    padding-left: 112px;
+    padding-right: 123px;
+    align-items: center;
+ 
+}
+
+header .nav-links{
+    padding: 40px;
+}
+
+header nav a{
+    padding: 8px;
+    text-decoration: none;
+    color: #222;
+}
+header .fa-bars{
+    display: none;
+}
+
+@media(max-width:913px){
+header .fa-bars{
+        display: flex;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    header .nav-links{
+        display: none;
+          }
+          header {
+            padding: 50px;
+          }
+}
+@media(max-width:576px){
+    header{
+        padding: 50px;
+    }
+}
