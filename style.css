@@ -4,6 +4,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/* Header Start */
+
 header{
     display: flex;
 justify-content: space-between;
@@ -45,3 +48,71 @@ header .fa-bars{
         padding: 50px;
     }
 }
+/* Header Finish */
+
+/* Section Start */
+
+section{
+    display: flex;
+    padding-left: 113px;
+    padding-right: 113px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+section .left-side{
+    padding-top: 57px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    }
+section h1 span{
+      color: #FF8A56;
+}
+.left-side h1{
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 52px;
+    
+}
+.left-side p{
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    color:#666666 ;
+   line-height: 17px;
+    padding-top: 34px;
+    
+}
+.left-side .button-groups button{
+    background-color: #333;
+    color: #fff;
+    height: 35px;
+    width: 98px;
+}
+.left-side .button-groups a{
+      font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333;
+    padding-left: 12px;
+    
+}
+
+.left-side .button-groups{
+    display: flex;
+padding-top: 25px;
+ align-items: center;
+}
+ 
+ 
+
+ @media(max-width:1427px) and (min-width:836px){
+    section .left-side{
+        flex-basis: 100%;
+
+    }
+ }
